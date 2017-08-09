@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Earth-R-Us</title>
+</head>
+<style>
+body{
+    background-image:
+    url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Minimalism-Storks-Tree-Leaves-Green-Planet-The-Roots-Birds-Wallpaper-620x388.jpg);
+  }
+#logo{
+  float: left;
+  width: 350px;
+  height: 100px;
+  height:30%;
+  width:18%;
+  margin-top: 59px;
+  margin-left: 144px;
+}
+#homepage{
+  /*margin-left: 10px;*/
+  display: block;
+  margin: auto;
+  height:60%;
+  width:63%;
+}
+div {
+  background-color: pink;
+  width:300px;
+  border: 5px solid black;
+  padding: 25px;
+  margin:30px;
+  margin-top: 220px;
+}
+header{
+  height:150px;
+  background-color:black;
+  width: 100%;
+  z-index: 10;
+  margin-bottom: -50px;
+  margin-top: -20px
+}
+ul {
+    width:1050px;
+    list-style-type: none;
+    margin:auto;
+    padding: 0;
+    overflow: hidden;
+    background-color:#009900;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+h1 {
+    font-family: courier;
+    color: white;
+}
+h2 {
+  font-family: courier;
+  color: white;
+}
+p {
+  color: white;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%
+  }
+  .button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  table {
+      font-family: Courier, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+  }
+
+  tr:nth-child(even) {
+      background-color: #dddddd;
+  }
+  tr:nth-child(odd) {
+      color: #dddddd;
+  }
+</style>
+<body>
+
+
+<header>
+<img id="logo" src="logo.jpg">
+</header>
+    <ul>
+      <li><a class="active" href="Homepage.html">Home</a></li>
+      <li><a href="#Recycle">Recycle</a></li>
+      <li><a href="#Local">Local</a></li>
+      <li><a href="#Climate">Climate</a></li>
+      <li><a href="Evaluate.html">Evaluate</a></li>
+      <li><a href="#User Sign In">User Sign In</a></li>
+    </ul>
+
+
+
+<body>
+<h1>Welcome to the Recycle Page! Have You Recycled Today?</h1>
+<a href="file:///C:/Users/Girls%20Who%20Code/Desktop/yes.html#" class="button">Yes!</a>
+<h2>Environmental Benefits of Recycling:</h2>
+<table>
+  <tr>
+    <th>Material</th>
+    <th>Energy Savings</th>
+    <th>Environmental Impact</th>
+    <th>Natural Resource Savings</th>
+    <th>Other</th>
+  </tr>
+  <tr>
+    <td><img src="recycledcans.jpg" alt="Aluminum" style="width:128px; height:128px;">
+    <td>Recycling one aluminum saves enough energy to run a TV for three hours</td>
+    <td>Reduces 95% of pollution</td>
+    <td>One pound of recycled aluminum saves four pounds of bauxite</td>
+    <td>We can rebuild our commercial air fleet four times every year by using all the aluminum that is thrown away</td>
+  </tr>
+  <tr>
+    <td><img src="glass.jpg" alt="Glass" style="width:128px; height:128px;"></td>
+    <td>Recycling one glass container saves enough energy to light a 100-watt bulb for four hours</td>
+    <td>20% less air pollution; 50% less water pollution</td>
+    <td>one ton of glass made from 50% recycled materials saves 250 pounds of mining waste</td>
+    <td>Glass can be reused an infinite number of times; over 41 billion glass containers are made per year</td>
+  </tr>
+  <tr>
+    <td><img src="paper.jpg" alt="Paper" style="width:128px; height:128px;"></td>
+    <td>60% energy savings</td>
+    <td>Each recycled ton saves 60 pounds of air pollution</td>
+    <td>Each recycled ton saves 17 trees and 7000 gallons of water</td>
+    <td>Every year enough paper is thrown away to make a 12 foot wall from New York to California</td>
+  </tr>
+  <tr>
+    <td><img src="plastic.jpg" alt="Plastic" style="width:128px; height:128px;"></td>
+    <td>Plastic milk containers are only hald the weight they were in 1960</td>
+    <td>Saves waste, which emits toxic pollutants or irritants into the air</td>
+    <td>If every plastic bottle used was recycled, two billion tons of plastic would be kept out of landfills</td>
+    <td>We use enough plastic every year to cover Texas</td>
+  </tr>
+  <tr>
+    <td><img src="steel.jpg" alt="Steel" style="width:128px; height:128px;"></td>
+    <td>One pound of steel recycled saves enough energy to light a 60-watt bulb for a day</td>
+    <td>Every year we create 11.5 million tons of ferrous waste</td>
+    <td>One ton of recycled steel saves 2,500 pounds of ore, 100 pounds of coal, and 40 pounds of limestone</td>
+    <td>Enough iron and steel is thrown away to continually supply the nation's automakers</td>
+  </tr>
+
+</table>
+
+</body>
+
+</html>
