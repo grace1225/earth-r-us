@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Earth-R-Us</title>
+</head>
+<style>
+body{
+    background-image:
+    url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Minimalism-Storks-Tree-Leaves-Green-Planet-The-Roots-Birds-Wallpaper-620x388.jpg);
+  }
+#logo{
+  float: left;
+  width: 350px;
+  height: 100px;
+  height:30%;
+  width:18%;
+  margin-top: 59px;
+  margin-left: 144px;
+}
+#homepage{
+  /*margin-left: 10px;*/
+  display: block;
+  margin: auto;
+  height:60%;
+  width:63%;
+}
+div {
+  background-color: pink;
+  width:300px;
+  border: 5px solid black;
+  padding: 25px;
+  margin:30px;
+  margin-top: 220px;
+}
+header{
+  height:150px;
+  background-color:black;
+  width: 100%;
+  z-index: 10;
+  margin-bottom: -50px;
+  margin-top: -20px
+}
+ul {
+    width:1050px;
+    list-style-type: none;
+    margin:auto;
+    padding: 0;
+    overflow: hidden;
+    background-color:#009900;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+h1 {
+    font-family: courier;
+    color: white;
+}
+
+#buttn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: courier;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%
+  }
+  #buttn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  form {
+    font-family: courier;
+    color: white;
+    font-size: 16px;
+  }
+
+</style>
+<body>
+
+
+<header>
+<img id="logo" src="logo.jpg">
+</header>
+    <ul>
+      <li><a class="active" href="Homepage.html">Home</a></li>
+      <li><a href="#Recycle">Recycle</a></li>
+      <li><a href="#Local">Local</a></li>
+      <li><a href="#Climate">Climate</a></li>
+      <li><a href="Evaluate.html">Evaluate</a></li>
+      <li><a href="#User Sign In">User Sign In</a></li>
+    </ul>
+
+      <HEAD>
+
+      <TITLE>Recycling Calculator</TITLE>
+
+      <SCRIPT language="javascript" type="text/javascript">
+
+      function addition()
+
+      {
+
+      a=30;
+
+      b=Number(document.calculator.number2.value);
+
+      c=a+b;
+
+      document.calculator.total.value=c;
+
+    var x = document.calculator.total.value;
+
+    alert("Congratulations! You have collectively recycled " + x + " items. Thank you for making the world a healthier, happier, and safer place to live!")
+      }
+
+      </SCRIPT>
+
+
+
+      <BODY>
+
+      <FORM name="calculator">
+
+      Number of items recycled today: <INPUT type="text" name="number2"> <br>
+
+      Number of items recycled in the past: 30 <name="30"> <br>
+
+      <INPUT type="text" name="total"> <br>
+
+      <input type="button" value="Recycle!" id="buttn" onclick="addition();">
+
+      </FORM>
+
+      <script name = "calculator">
+
+        document.getElementById("button").addEventListener("click", function() {
+          alert("Congratulations! You have recycled "  + <INPUT type="text" name="total">  +  " items collectively!");
+        });
+    </script>
+
+      </BODY>
+
+      </HTML>
